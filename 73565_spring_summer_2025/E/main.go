@@ -79,7 +79,7 @@ func main() {
 
 		for k, d := range dict {
 			lenK := len(k)
-			if f.index+lenK >= sizeSecret || k != secret[f.index:f.index+lenK] {
+			if f.index+lenK > sizeSecret || k != secret[f.index:f.index+lenK] {
 				continue
 			}
 
