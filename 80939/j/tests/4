@@ -1,0 +1,6 @@
+5
+List x = new List(1,2,5,14,42)
+List y = x.subList(1,3)
+y.set(1,22)
+y.get(1)
+x.get(1)
